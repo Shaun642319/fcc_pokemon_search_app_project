@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokemon search app</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h2>Pokémon Search App</h2>
+    <div class="pokedex">
+      <div class="top-hook">
+        <div class="inner-circle"></div>
+      </div>
+      <div class="top-body">
+        <div class="screen">
+            <label><p class="label">Search for Pokémon Name or ID:</p>
+              <input id="search-input" required></input>
+              <button id="search-button">
+                Search
+              </button>
+            </label>
+            <h4 id="pokemon-name"></h4>
+            <h4 id="pokemon-id"></h4>
+            <p id="weight"></p>
+            <p id="height"></p>
+            <div id="avatar"></div>
+            <div id="types"></div>
+          </div>
+        <div class="black-bar">
+          <div class="right light"></div>
+          <div class="left light"></div>
+        </div>
+      </div>
+      <div class="hinge">
+        <div class="hinge-1"></div>
+        <div class="hinge-2"></div>
+        <div class="hinge-3"></div>
+      </div>
+      <div class="lower-body">
+        <div class="lower black-bar"></div>
+        <div class="lower-screen">
+            <div class="stats">
+              <h4>Base Stats</h4>
+              <p>HP: <span id="hp"></span></p>
+              <p>ATTACK: <span id="attack"></span></p>
+              <p>DEFENSE: <span id="defense"></span></p>
+              <p>SPECIAL ATTACK: <span id="special-attack"></span></p>
+              <p>SPECIAL DEFENSE: <span id="special-defense"></span></p>
+              <p>SPEED: <span id="speed"></span></p>
+            </div>
+          </div>
+        <div class="lower-portion">
+          <div class="semi-circle"></div>
+          <div class="ring"></div>
+        </div>
+      </div>
+    </div>
+	<script src="script.js"></script>
+  </body>
+</html>
